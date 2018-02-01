@@ -1,0 +1,1 @@
+> Was forked from [this](https://github.com/ittus/vuejs-firebase-shopping-cart/) repository.
