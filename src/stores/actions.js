@@ -52,8 +52,6 @@ export function getShoppingCart({commit}, {uid, currentCart}) {
 }
 
 export function saveShoppingCart({commit}, {uid, cartItemList}) {
-	// console.log("ACTIONS saveShoppingCart");
-	// console.log("CART DATA", cartItemList);
 	return ref.child("cart/" + uid).set(cartItemList);
 }
 

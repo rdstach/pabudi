@@ -1,7 +1,5 @@
 const state = {
 	messageGroup: {
-		// messageClass: 'danger',
-		// message: 'Test'
 		messageClass: '',
 		message: '',
 		timeoutEvent: null,
